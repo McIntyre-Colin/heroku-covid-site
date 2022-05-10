@@ -6,11 +6,7 @@ from django.shortcuts import render
 
 def index(request):
     # This is the view function for the landing page
-    return HttpResponse('''
-        <h1>Welcome to my home page!</h1>
-        <a href="/state-data">Data</a> <br />
-        <a href="/comparison/">Comparison</a> <br />
-    ''')
+    return render(request, 'index.html')
 
 
 def state_data(request):
