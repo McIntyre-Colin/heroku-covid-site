@@ -1,1 +1,1 @@
-Making sure git environment is working
+More updates to come in the near future, just wanted to get something up
